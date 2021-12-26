@@ -1,0 +1,53 @@
+.leftbar {
+  height: 100vh;
+  background-color: #64da92;
+  overflow: hidden;
+  flex: 1;
+}
+
+.leftbar-title {
+  text-align: center;
+  padding-top: 2rem;
+  color: #06396b;
+  font-size: 2.5rem;
+  font-family: "Montserrat";
+}
+.leftbar-menu {
+  margin: 2rem;
+}
+
+.leftbar-menu-items {
+  font-size: 1rem;
+  padding: 0.2rem 0;
+}
+.leftbar-menu-item-text {
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+  font-family: "Raleway";
+  color: #eafee8;
+  font-weight: 600;
+}
+
+.leftbar-custom-menu-item {
+  outline: none;
+  margin-top: 0.5rem;
+  background-color: white;
+  border: 1px solid transparent;
+  padding: 1rem;
+}
+
+.leftbar-custom-menu-item:hover {
+  border: 1px solid black;
+}
+
+.leftbar-custom-menu-item:focus {
+  border: 1px solid black;
+}
+
+@media only screen and (max-width: 720px) {
+  .leftbar {
+    background-color: #64da92;
+    overflow: scroll;
+    flex: 2;
+  }
+}

@@ -1,0 +1,13 @@
+.body {
+  background-color: #e9ffea;
+  flex: 3;
+  padding: 1rem 2rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.body-title {
+  font-size: 2.5rem;
+  font-family: "Montserrat";
+  font-weight: 500;
+  color: #06396b;
+}
